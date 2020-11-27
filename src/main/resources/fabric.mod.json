@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "modmenufl",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ModMenu (FL)",
+  "description": "Mod Menu! Mod Menu! Mod Menu!",
   "authors": [
-    "Me!"
+    "TextileMC"
   ],
   "contact": {
     "issues": "https://github.com/TextileMC/Textile-Example-Mod/issues",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/modmenufl/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.textilemc.examplemod.ExampleMod"
+      "net.textilemc.ModMenuFL.ModMenuFL"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "modmenufl.mixins.json"
   ],
 
   "depends": {
